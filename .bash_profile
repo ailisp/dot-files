@@ -16,7 +16,7 @@ export GOPATH
 export EDITOR="emacsclient"
 
 case "$MSYSTEM" in
-    MINGW64 . ~/.bash.d/.bash_profile.mingw64;;
-    MINGW32 . ~/.bash.d/.bash_profile.mingw32;;
-    MSYS . ~/.bash.d/.bash_profile.msys;;
+    MINGW64) . ~/.bash.d/.bash_profile.mingw64;;
+    MINGW32) . ~/.bash.d/.bash_profile.mingw32;;
+    MSYS) . ~/.bash.d/.bash_profile.msys;;
 esac
