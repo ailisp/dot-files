@@ -1,0 +1,7 @@
+/*
+!.gitignore
+!.bash_profile
+!.bashrc
+!.ccl-init.lisp
+!.sbclrc
+!/bin/ccl*
