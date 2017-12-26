@@ -1,6 +1,3 @@
 #!/usr/bin/env bash
 
-case $(uname -o) in
-    Msys      ) ~/workspace/ccl-dev/wx86cl64;;
-    GNU/Linux ) ~/workspace/ccl-dev/lx86cl64;;
-esac
+~/workspace/ccl-dev/lx86cl64

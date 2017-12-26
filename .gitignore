@@ -5,5 +5,5 @@
 !.ccl-init.lisp
 !ccl-init.lisp
 !.sbclrc
-!/bin/ccl*
+!/bin/
 !/.bash.d/
