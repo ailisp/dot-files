@@ -3,6 +3,7 @@
 !.bash_profile
 !.bashrc
 !.ccl-init.lisp
+!ccl-init.lisp
 !.sbclrc
 !/bin/ccl*
 !/.bash.d/
