@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
 
-~/Downloads/package/ccl/lx86cl64
+case $(uname -o) in
+    Msys      ) ~/Downloads/package/ccl/wx86cl64;;
+    GNU/Linux ) ~/Downloads/package/ccl/lx86cl64;;
+esac
