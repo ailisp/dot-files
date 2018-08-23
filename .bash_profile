@@ -23,3 +23,5 @@ if [ $(uname -o) == "Msys" ]; then
         MSYS) . ~/.bash.d/.bash_profile.msys;;
     esac
 fi
+
+export PATH="$HOME/.cargo/bin:$PATH"
