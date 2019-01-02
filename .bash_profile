@@ -7,7 +7,7 @@ fi
 
 # User specific environment and startup programs
 
-PATH=$PATH:$HOME/.local/bin:$HOME/bin:/usr/local/go/bin
+PATH=$PATH:$HOME/.local/bin:$HOME/bin:/usr/local/go/bin:/usr/local/hadoop/bin/
 GOPATH=$HOME/go
 PATH=$PATH:$GOPATH/bin
 
